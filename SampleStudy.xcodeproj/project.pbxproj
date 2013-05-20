@@ -19,6 +19,18 @@
 		A0A6C00F1745EE1900B74712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C00E1745EE1900B74712 /* ViewController.m */; };
 		A0A6C0121745EE1900B74712 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C0101745EE1900B74712 /* ViewController_iPhone.xib */; };
 		A0A6C0151745EE1900B74712 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C0131745EE1900B74712 /* ViewController_iPad.xib */; };
+		A0A6C023174612B400B74712 /* Test1ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C021174612B400B74712 /* Test1ParentViewController.m */; };
+		A0A6C024174612B400B74712 /* Test1ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C022174612B400B74712 /* Test1ParentViewController.xib */; };
+		A0A6C02B174613BE00B74712 /* Test2ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C029174613BE00B74712 /* Test2ParentViewController.m */; };
+		A0A6C02C174613BE00B74712 /* Test2ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C02A174613BE00B74712 /* Test2ParentViewController.xib */; };
+		A0A6C030174613CF00B74712 /* Test3ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C02E174613CF00B74712 /* Test3ParentViewController.m */; };
+		A0A6C031174613CF00B74712 /* Test3ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C02F174613CF00B74712 /* Test3ParentViewController.xib */; };
+		A0A6C03517461DF100B74712 /* Test1ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C03317461DF100B74712 /* Test1ChildViewController.m */; };
+		A0A6C03617461DF100B74712 /* Test1ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C03417461DF100B74712 /* Test1ChildViewController.xib */; };
+		A0A6C03A1746298F00B74712 /* Test2ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C0381746298F00B74712 /* Test2ChildViewController.m */; };
+		A0A6C03B1746298F00B74712 /* Test2ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C0391746298F00B74712 /* Test2ChildViewController.xib */; };
+		A0A6C03F1749B94B00B74712 /* Test3ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A6C03D1749B94B00B74712 /* Test3ChildViewController.m */; };
+		A0A6C0401749B94B00B74712 /* Test3ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A6C03E1749B94B00B74712 /* Test3ChildViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +51,24 @@
 		A0A6C00E1745EE1900B74712 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0A6C0111745EE1900B74712 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A0A6C0141745EE1900B74712 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A0A6C020174612B400B74712 /* Test1ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ParentViewController.h; sourceTree = "<group>"; };
+		A0A6C021174612B400B74712 /* Test1ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ParentViewController.m; sourceTree = "<group>"; };
+		A0A6C022174612B400B74712 /* Test1ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1ParentViewController.xib; sourceTree = "<group>"; };
+		A0A6C028174613BE00B74712 /* Test2ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ParentViewController.h; sourceTree = "<group>"; };
+		A0A6C029174613BE00B74712 /* Test2ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ParentViewController.m; sourceTree = "<group>"; };
+		A0A6C02A174613BE00B74712 /* Test2ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test2ParentViewController.xib; sourceTree = "<group>"; };
+		A0A6C02D174613CF00B74712 /* Test3ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ParentViewController.h; sourceTree = "<group>"; };
+		A0A6C02E174613CF00B74712 /* Test3ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ParentViewController.m; sourceTree = "<group>"; };
+		A0A6C02F174613CF00B74712 /* Test3ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test3ParentViewController.xib; sourceTree = "<group>"; };
+		A0A6C03217461DF100B74712 /* Test1ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ChildViewController.h; sourceTree = "<group>"; };
+		A0A6C03317461DF100B74712 /* Test1ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ChildViewController.m; sourceTree = "<group>"; };
+		A0A6C03417461DF100B74712 /* Test1ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1ChildViewController.xib; sourceTree = "<group>"; };
+		A0A6C0371746298F00B74712 /* Test2ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ChildViewController.h; sourceTree = "<group>"; };
+		A0A6C0381746298F00B74712 /* Test2ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ChildViewController.m; sourceTree = "<group>"; };
+		A0A6C0391746298F00B74712 /* Test2ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test2ChildViewController.xib; sourceTree = "<group>"; };
+		A0A6C03C1749B94B00B74712 /* Test3ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ChildViewController.h; sourceTree = "<group>"; };
+		A0A6C03D1749B94B00B74712 /* Test3ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ChildViewController.m; sourceTree = "<group>"; };
+		A0A6C03E1749B94B00B74712 /* Test3ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test3ChildViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +115,9 @@
 		A0A6BFFB1745EE1900B74712 /* SampleStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A0A6C0271746138D00B74712 /* SampleNotification */,
+				A0A6C0261746137C00B74712 /* SampleBlock */,
+				A0A6C0251746135900B74712 /* SampleDelegate */,
 				A0A6C0041745EE1900B74712 /* AppDelegate.h */,
 				A0A6C0051745EE1900B74712 /* AppDelegate.m */,
 				A0A6C00D1745EE1900B74712 /* ViewController.h */,
@@ -108,6 +141,45 @@
 				A0A6C00B1745EE1900B74712 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A6C0251746135900B74712 /* SampleDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6C020174612B400B74712 /* Test1ParentViewController.h */,
+				A0A6C021174612B400B74712 /* Test1ParentViewController.m */,
+				A0A6C022174612B400B74712 /* Test1ParentViewController.xib */,
+				A0A6C03217461DF100B74712 /* Test1ChildViewController.h */,
+				A0A6C03317461DF100B74712 /* Test1ChildViewController.m */,
+				A0A6C03417461DF100B74712 /* Test1ChildViewController.xib */,
+			);
+			name = SampleDelegate;
+			sourceTree = "<group>";
+		};
+		A0A6C0261746137C00B74712 /* SampleBlock */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6C028174613BE00B74712 /* Test2ParentViewController.h */,
+				A0A6C029174613BE00B74712 /* Test2ParentViewController.m */,
+				A0A6C02A174613BE00B74712 /* Test2ParentViewController.xib */,
+				A0A6C0371746298F00B74712 /* Test2ChildViewController.h */,
+				A0A6C0381746298F00B74712 /* Test2ChildViewController.m */,
+				A0A6C0391746298F00B74712 /* Test2ChildViewController.xib */,
+			);
+			name = SampleBlock;
+			sourceTree = "<group>";
+		};
+		A0A6C0271746138D00B74712 /* SampleNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6C02D174613CF00B74712 /* Test3ParentViewController.h */,
+				A0A6C02E174613CF00B74712 /* Test3ParentViewController.m */,
+				A0A6C02F174613CF00B74712 /* Test3ParentViewController.xib */,
+				A0A6C03C1749B94B00B74712 /* Test3ChildViewController.h */,
+				A0A6C03D1749B94B00B74712 /* Test3ChildViewController.m */,
+				A0A6C03E1749B94B00B74712 /* Test3ChildViewController.xib */,
+			);
+			name = SampleNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +239,12 @@
 				A0A6C00C1745EE1900B74712 /* Default-568h@2x.png in Resources */,
 				A0A6C0121745EE1900B74712 /* ViewController_iPhone.xib in Resources */,
 				A0A6C0151745EE1900B74712 /* ViewController_iPad.xib in Resources */,
+				A0A6C024174612B400B74712 /* Test1ParentViewController.xib in Resources */,
+				A0A6C02C174613BE00B74712 /* Test2ParentViewController.xib in Resources */,
+				A0A6C031174613CF00B74712 /* Test3ParentViewController.xib in Resources */,
+				A0A6C03617461DF100B74712 /* Test1ChildViewController.xib in Resources */,
+				A0A6C03B1746298F00B74712 /* Test2ChildViewController.xib in Resources */,
+				A0A6C0401749B94B00B74712 /* Test3ChildViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +258,12 @@
 				A0A6C0021745EE1900B74712 /* main.m in Sources */,
 				A0A6C0061745EE1900B74712 /* AppDelegate.m in Sources */,
 				A0A6C00F1745EE1900B74712 /* ViewController.m in Sources */,
+				A0A6C023174612B400B74712 /* Test1ParentViewController.m in Sources */,
+				A0A6C02B174613BE00B74712 /* Test2ParentViewController.m in Sources */,
+				A0A6C030174613CF00B74712 /* Test3ParentViewController.m in Sources */,
+				A0A6C03517461DF100B74712 /* Test1ChildViewController.m in Sources */,
+				A0A6C03A1746298F00B74712 /* Test2ChildViewController.m in Sources */,
+				A0A6C03F1749B94B00B74712 /* Test3ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +394,7 @@
 				A0A6C01A1745EE1900B74712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
